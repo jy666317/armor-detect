@@ -1,0 +1,1 @@
+/home/jy/armordetect/build/armor_interfaces/rosidl_generator_py/armor_interfaces/__init__.py

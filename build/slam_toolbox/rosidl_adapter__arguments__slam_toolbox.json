@@ -1,0 +1,15 @@
+{
+  "package_name": "slam_toolbox",
+  "non_idl_tuples": [
+    "/home/jy/armordetect/src/slam_toolbox:srv/Pause.srv",
+    "/home/jy/armordetect/src/slam_toolbox:srv/ClearQueue.srv",
+    "/home/jy/armordetect/src/slam_toolbox:srv/ToggleInteractive.srv",
+    "/home/jy/armordetect/src/slam_toolbox:srv/Clear.srv",
+    "/home/jy/armordetect/src/slam_toolbox:srv/SaveMap.srv",
+    "/home/jy/armordetect/src/slam_toolbox:srv/LoopClosure.srv",
+    "/home/jy/armordetect/src/slam_toolbox:srv/MergeMaps.srv",
+    "/home/jy/armordetect/src/slam_toolbox:srv/AddSubmap.srv",
+    "/home/jy/armordetect/src/slam_toolbox:srv/DeserializePoseGraph.srv",
+    "/home/jy/armordetect/src/slam_toolbox:srv/SerializePoseGraph.srv"
+  ]
+}

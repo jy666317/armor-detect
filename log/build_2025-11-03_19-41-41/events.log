@@ -1,0 +1,469 @@
+[0.000000] (-) TimerEvent: {}
+[0.000447] (-) JobUnselected: {'identifier': 'armor_detect'}
+[0.000521] (-) JobUnselected: {'identifier': 'armor_interfaces'}
+[0.000558] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.000701] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.005709] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.006501] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'build'}
+[0.007339] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jy/armordetect/build/slam_toolbox', '--', '-j16', '-l16'], 'cwd': '/home/jy/armordetect/build/slam_toolbox', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'jy'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jy/ws00_helloworld/install/base_interfaces_demo/lib:/home/jy/catkin_ws/devel/lib:/home/jy/catkin_ws/devel_isolated/wpr_simulation/lib:/home/jy/catkin_ws/devel_isolated/ssr_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jy'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jy'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2779'), ('SYSTEMD_EXEC_PID', '3048'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '114441'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/jy/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jy'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:67742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jy/catkin_ws/devel/lib/pkgconfig:/home/jy/catkin_ws/devel_isolated/wpr_simulation/lib/pkgconfig:/home/jy/catkin_ws/devel_isolated/ssr_pkg/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jy'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jy/anaconda3/condabin:/opt/ros/humble/bin:/home/jy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jy:@/tmp/.ICE-unix/3021,unix/jy:/tmp/.ICE-unix/3021'), ('INVOCATION_ID', 'b3879362dfd747f1a8440570a7158826'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jy/ws00_helloworld/install/py02_service:/home/jy/ws00_helloworld/install/py01_topic:/home/jy/ws00_helloworld/install/pkg01_helloworld_cpp:/home/jy/ws00_helloworld/install/cpp03_action:/home/jy/ws00_helloworld/install/cpp02_service:/home/jy/ws00_helloworld/install/cpp01_topic:/home/jy/ws00_helloworld/install/base_interfaces_demo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:696b5566-9bd6-426b-b949-529f05cfe672'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jy/armordetect/build/slam_toolbox'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jy/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jy/ws00_helloworld/install/py02_service/lib/python3.10/site-packages:/home/jy/ws00_helloworld/install/py01_topic/lib/python3.10/site-packages:/home/jy/ws00_helloworld/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/home/jy/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jy/ws00_helloworld/install/pkg01_helloworld_cpp:/home/jy/ws00_helloworld/install/cpp03_action:/home/jy/ws00_helloworld/install/cpp02_service:/home/jy/ws00_helloworld/install/cpp01_topic:/home/jy/ws00_helloworld/install/base_interfaces_demo:/home/jy/ws00_helloworld/install/py02_service:/home/jy/ws00_helloworld/install/py01_topic:/opt/ros/humble:/home/jy/catkin_ws/devel:/home/jy/catkin_ws/devel_isolated/wpr_simulation:/home/jy/catkin_ws/devel_isolated/ssr_pkg')]), 'shell': False}
+[0.047144] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kartoSlamToolbox\x1b[0m\n'}
+[0.047407] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_generator_c\x1b[0m\n'}
+[0.054236] (slam_toolbox) StdoutLine: {'line': b'[  1%] Built target slam_toolbox__cpp\n'}
+[0.059095] (slam_toolbox) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_slam_toolbox\n'}
+[0.060481] (slam_toolbox) StdoutLine: {'line': b'[ 10%] Built target slam_toolbox__rosidl_generator_c\n'}
+[0.064813] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.065311] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.065498] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.067528] (slam_toolbox) StdoutLine: {'line': b'[ 12%] Built target kartoSlamToolbox\n'}
+[0.072017] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_c\x1b[0m\n'}
+[0.072219] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.072272] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.080943] (slam_toolbox) StdoutLine: {'line': b'[ 20%] Built target slam_toolbox__rosidl_typesupport_cpp\n'}
+[0.081866] (slam_toolbox) StdoutLine: {'line': b'[ 28%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp\n'}
+[0.082817] (slam_toolbox) StdoutLine: {'line': b'[ 37%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp\n'}
+[0.083861] (slam_toolbox) StdoutLine: {'line': b'[ 45%] Built target slam_toolbox__rosidl_typesupport_c\n'}
+[0.086963] (slam_toolbox) StdoutLine: {'line': b'[ 53%] Built target slam_toolbox__rosidl_typesupport_introspection_c\n'}
+[0.089429] (slam_toolbox) StdoutLine: {'line': b'[ 62%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c\n'}
+[0.091020] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target SlamToolboxPlugin\x1b[0m\n'}
+[0.091171] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ceres_solver_plugin\x1b[0m\n'}
+[0.095793] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target toolbox_common\x1b[0m\n'}
+[0.099842] (-) TimerEvent: {}
+[0.102359] (slam_toolbox) StdoutLine: {'line': b'[ 62%] Built target slam_toolbox\n'}
+[0.108862] (slam_toolbox) StdoutLine: {'line': b'[ 64%] Built target SlamToolboxPlugin\n'}
+[0.110351] (slam_toolbox) StdoutLine: {'line': b'[ 66%] Built target ceres_solver_plugin\n'}
+[0.115060] (slam_toolbox) StdoutLine: {'line': b'[ 66%] Built target slam_toolbox__py\n'}
+[0.123577] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_generator_py\x1b[0m\n'}
+[0.123744] (slam_toolbox) StdoutLine: {'line': b'[ 71%] Built target toolbox_common\n'}
+[0.131420] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sync_slam_toolbox\x1b[0m\n'}
+[0.131586] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target localization_slam_toolbox\x1b[0m\n'}
+[0.131662] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target async_slam_toolbox\x1b[0m\n'}
+[0.131730] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lifelong_slam_toolbox\x1b[0m\n'}
+[0.134312] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target merge_maps_kinematic\x1b[0m\n'}
+[0.136119] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target slam_toolbox__rosidl_generator_py\n'}
+[0.142401] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.142551] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.143074] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.150134] (slam_toolbox) StdoutLine: {'line': b'[ 83%] Built target slam_toolbox__rosidl_typesupport_c__pyext\n'}
+[0.150304] (slam_toolbox) StdoutLine: {'line': b'[ 85%] Built target async_slam_toolbox\n'}
+[0.150381] (slam_toolbox) StdoutLine: {'line': b'[ 85%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext\n'}
+[0.150427] (slam_toolbox) StdoutLine: {'line': b'[ 86%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.150911] (slam_toolbox) StdoutLine: {'line': b'[ 87%] Built target lifelong_slam_toolbox\n'}
+[0.154645] (slam_toolbox) StdoutLine: {'line': b'[ 90%] Built target localization_slam_toolbox\n'}
+[0.154819] (slam_toolbox) StdoutLine: {'line': b'[ 90%] Built target sync_slam_toolbox\n'}
+[0.158954] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target async_slam_toolbox_node\x1b[0m\n'}
+[0.160752] (slam_toolbox) StdoutLine: {'line': b'[ 92%] Built target merge_maps_kinematic\n'}
+[0.162011] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target localization_slam_toolbox_node\x1b[0m\n'}
+[0.162097] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lifelong_slam_toolbox_node\x1b[0m\n'}
+[0.164564] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target map_and_localization_slam_toolbox\x1b[0m\n'}
+[0.165062] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sync_slam_toolbox_node\x1b[0m\n'}
+[0.179566] (slam_toolbox) StdoutLine: {'line': b'[ 94%] Built target localization_slam_toolbox_node\n'}
+[0.180596] (slam_toolbox) StdoutLine: {'line': b'[ 95%] Built target async_slam_toolbox_node\n'}
+[0.183204] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target sync_slam_toolbox_node\n'}
+[0.189302] (slam_toolbox) StdoutLine: {'line': b'[ 98%] Built target lifelong_slam_toolbox_node\n'}
+[0.189510] (slam_toolbox) StdoutLine: {'line': b'[ 99%] Built target map_and_localization_slam_toolbox\n'}
+[0.197999] (slam_toolbox) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target map_and_localization_slam_toolbox_node\x1b[0m\n'}
+[0.199931] (-) TimerEvent: {}
+[0.201961] (slam_toolbox) StdoutLine: {'line': b'running egg_info\n'}
+[0.210781] (slam_toolbox) StdoutLine: {'line': b'writing slam_toolbox.egg-info/PKG-INFO\n'}
+[0.211183] (slam_toolbox) StdoutLine: {'line': b'writing dependency_links to slam_toolbox.egg-info/dependency_links.txt\n'}
+[0.211391] (slam_toolbox) StdoutLine: {'line': b'writing top-level names to slam_toolbox.egg-info/top_level.txt\n'}
+[0.223129] (slam_toolbox) StdoutLine: {'line': b'[100%] Built target map_and_localization_slam_toolbox_node\n'}
+[0.239569] (slam_toolbox) StdoutLine: {'line': b"reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[0.239960] (slam_toolbox) StdoutLine: {'line': b"writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[0.256417] (slam_toolbox) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_slam_toolbox_egg\n'}
+[0.265634] (slam_toolbox) CommandEnded: {'returncode': 0}
+[0.266286] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'install'}
+[0.273342] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jy/armordetect/build/slam_toolbox'], 'cwd': '/home/jy/armordetect/build/slam_toolbox', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'jy'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jy/ws00_helloworld/install/base_interfaces_demo/lib:/home/jy/catkin_ws/devel/lib:/home/jy/catkin_ws/devel_isolated/wpr_simulation/lib:/home/jy/catkin_ws/devel_isolated/ssr_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jy'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jy'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2779'), ('SYSTEMD_EXEC_PID', '3048'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '114441'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/jy/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jy'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:67742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jy/catkin_ws/devel/lib/pkgconfig:/home/jy/catkin_ws/devel_isolated/wpr_simulation/lib/pkgconfig:/home/jy/catkin_ws/devel_isolated/ssr_pkg/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jy'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jy/anaconda3/condabin:/opt/ros/humble/bin:/home/jy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jy:@/tmp/.ICE-unix/3021,unix/jy:/tmp/.ICE-unix/3021'), ('INVOCATION_ID', 'b3879362dfd747f1a8440570a7158826'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jy/ws00_helloworld/install/py02_service:/home/jy/ws00_helloworld/install/py01_topic:/home/jy/ws00_helloworld/install/pkg01_helloworld_cpp:/home/jy/ws00_helloworld/install/cpp03_action:/home/jy/ws00_helloworld/install/cpp02_service:/home/jy/ws00_helloworld/install/cpp01_topic:/home/jy/ws00_helloworld/install/base_interfaces_demo:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/jy/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:696b5566-9bd6-426b-b949-529f05cfe672'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jy/armordetect/build/slam_toolbox'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/jy/anaconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jy/ws00_helloworld/install/py02_service/lib/python3.10/site-packages:/home/jy/ws00_helloworld/install/py01_topic/lib/python3.10/site-packages:/home/jy/ws00_helloworld/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/home/jy/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jy/ws00_helloworld/install/pkg01_helloworld_cpp:/home/jy/ws00_helloworld/install/cpp03_action:/home/jy/ws00_helloworld/install/cpp02_service:/home/jy/ws00_helloworld/install/cpp01_topic:/home/jy/ws00_helloworld/install/base_interfaces_demo:/home/jy/ws00_helloworld/install/py02_service:/home/jy/ws00_helloworld/install/py01_topic:/opt/ros/humble:/home/jy/catkin_ws/devel:/home/jy/catkin_ws/devel_isolated/wpr_simulation:/home/jy/catkin_ws/devel_isolated/ssr_pkg')]), 'shell': False}
+[0.279078] (slam_toolbox) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.279160] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox\n'}
+[0.279193] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[0.279222] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[0.279249] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.279306] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[0.279347] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.h\n'}
+[0.279378] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[0.279467] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.h\n'}
+[0.279497] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.c\n'}
+[0.279524] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h\n'}
+[0.279593] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.c\n'}
+[0.279743] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.c\n'}
+[0.279776] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.h\n'}
+[0.279804] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.h\n'}
+[0.279855] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.c\n'}
+[0.279881] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h\n'}
+[0.279908] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.h\n'}
+[0.279932] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.h\n'}
+[0.279958] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.h\n'}
+[0.279983] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.h\n'}
+[0.280008] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c\n'}
+[0.280032] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.h\n'}
+[0.280056] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.c\n'}
+[0.280079] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.h\n'}
+[0.280104] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.h\n'}
+[0.280129] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.h\n'}
+[0.280152] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.h\n'}
+[0.280176] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.h\n'}
+[0.280200] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.h\n'}
+[0.280224] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.h\n'}
+[0.280274] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h\n'}
+[0.280300] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.c\n'}
+[0.280324] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.h\n'}
+[0.280348] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.c\n'}
+[0.280375] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.c\n'}
+[0.280401] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.h\n'}
+[0.280426] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.h\n'}
+[0.280548] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.h\n'}
+[0.280574] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.h\n'}
+[0.280598] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.h\n'}
+[0.280624] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.h\n'}
+[0.280648] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.h\n'}
+[0.280672] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.h\n'}
+[0.280696] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.c\n'}
+[0.280720] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h\n'}
+[0.280745] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.h\n'}
+[0.280769] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.h\n'}
+[0.280793] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.h\n'}
+[0.280817] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.h\n'}
+[0.280841] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.h\n'}
+[0.280866] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.h\n'}
+[0.280889] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.h\n'}
+[0.280914] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.h\n'}
+[0.280938] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.h\n'}
+[0.280962] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.h\n'}
+[0.280986] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.h\n'}
+[0.281009] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh\n'}
+[0.281034] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv\n'}
+[0.281057] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so\n'}
+[0.281081] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[0.281105] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[0.281156] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.281181] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[0.281204] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[0.281229] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h\n'}
+[0.281477] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h\n'}
+[0.281644] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h\n'}
+[0.281716] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[0.281783] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h\n'}
+[0.281848] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[0.281913] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h\n'}
+[0.281976] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h\n'}
+[0.282073] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h\n'}
+[0.282146] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[0.282208] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so\n'}
+[0.282268] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[0.282329] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[0.282461] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.282516] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[0.282546] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.hpp\n'}
+[0.282574] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.hpp\n'}
+[0.282675] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[0.282700] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__builder.hpp\n'}
+[0.282724] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.hpp\n'}
+[0.282752] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.hpp\n'}
+[0.282775] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.hpp\n'}
+[0.282798] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__builder.hpp\n'}
+[0.282820] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__traits.hpp\n'}
+[0.282842] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp\n'}
+[0.282864] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__traits.hpp\n'}
+[0.282886] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp\n'}
+[0.282911] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.hpp\n'}
+[0.282932] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__builder.hpp\n'}
+[0.282953] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__builder.hpp\n'}
+[0.282974] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__traits.hpp\n'}
+[0.282996] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.hpp\n'}
+[0.283017] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__traits.hpp\n'}
+[0.283045] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp\n'}
+[0.283067] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp\n'}
+[0.283090] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.hpp\n'}
+[0.283112] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.hpp\n'}
+[0.283134] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.hpp\n'}
+[0.283160] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__builder.hpp\n'}
+[0.283182] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp\n'}
+[0.283204] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.hpp\n'}
+[0.283226] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__traits.hpp\n'}
+[0.283249] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__traits.hpp\n'}
+[0.283272] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.hpp\n'}
+[0.283294] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.hpp\n'}
+[0.283316] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp\n'}
+[0.283338] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__builder.hpp\n'}
+[0.283360] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.hpp\n'}
+[0.283406] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.hpp\n'}
+[0.283431] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__builder.hpp\n'}
+[0.283454] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.hpp\n'}
+[0.283476] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.hpp\n'}
+[0.283498] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.hpp\n'}
+[0.283521] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__traits.hpp\n'}
+[0.283544] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.hpp\n'}
+[0.283567] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__traits.hpp\n'}
+[0.283589] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.hpp\n'}
+[0.283611] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__builder.hpp\n'}
+[0.283633] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.hpp\n'}
+[0.283655] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.hpp\n'}
+[0.283678] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.hpp\n'}
+[0.283701] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.hpp\n'}
+[0.283723] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.hpp\n'}
+[0.283745] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.hpp\n'}
+[0.283767] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.hpp\n'}
+[0.283792] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.hpp\n'}
+[0.283816] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[0.283838] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[0.283859] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.283883] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[0.283906] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[0.283928] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.283950] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.283972] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.283993] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.284016] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.284038] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/dds_fastrtps\n'}
+[0.284060] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.284081] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.284103] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.284124] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.284146] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.284167] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.284189] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[0.284211] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[0.284232] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.284256] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[0.284277] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[0.284303] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h\n'}
+[0.284326] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h\n'}
+[0.284348] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[0.284374] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h\n'}
+[0.284399] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h\n'}
+[0.284421] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.c\n'}
+[0.284442] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.c\n'}
+[0.284464] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.c\n'}
+[0.284485] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[0.284511] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.c\n'}
+[0.284535] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.c\n'}
+[0.284557] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.c\n'}
+[0.284579] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[0.284601] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h\n'}
+[0.284624] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h\n'}
+[0.284646] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c\n'}
+[0.284668] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h\n'}
+[0.284690] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.c\n'}
+[0.284712] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.c\n'}
+[0.284734] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c\n'}
+[0.284755] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so\n'}
+[0.284776] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so\n'}
+[0.284800] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[0.284822] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[0.284843] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[0.284865] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.284887] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.284909] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.284930] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp\n'}
+[0.284953] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.284975] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.cpp\n'}
+[0.284996] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.285018] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.cpp\n'}
+[0.285040] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.285062] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.cpp\n'}
+[0.285084] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp\n'}
+[0.285105] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.cpp\n'}
+[0.285126] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.285150] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.285174] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.285196] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.285218] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.cpp\n'}
+[0.285240] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.cpp\n'}
+[0.285263] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.cpp\n'}
+[0.285285] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp\n'}
+[0.285307] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so\n'}
+[0.285330] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so\n'}
+[0.285351] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh\n'}
+[0.285377] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv\n'}
+[0.285401] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info\n'}
+[0.285423] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/dependency_links.txt\n'}
+[0.285445] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/top_level.txt\n'}
+[0.285467] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/SOURCES.txt\n'}
+[0.285489] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/PKG-INFO\n'}
+[0.285511] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox\n'}
+[0.285532] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/libslam_toolbox__rosidl_generator_py.so\n'}
+[0.285554] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.285576] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.285598] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py\n'}
+[0.285620] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.285642] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c\n'}
+[0.285664] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv\n'}
+[0.285687] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py\n'}
+[0.285709] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py\n'}
+[0.285730] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue_s.c\n'}
+[0.285755] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_s.c\n'}
+[0.285778] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py\n'}
+[0.285799] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py\n'}
+[0.285821] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps_s.c\n'}
+[0.285846] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map_s.c\n'}
+[0.285868] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c\n'}
+[0.285890] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py\n'}
+[0.285912] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py\n'}
+[0.285933] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause_s.c\n'}
+[0.285955] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure_s.c\n'}
+[0.285977] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py\n'}
+[0.285999] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py\n'}
+[0.286020] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive_s.c\n'}
+[0.286042] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py\n'}
+[0.286064] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap_s.c\n'}
+[0.286086] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py\n'}
+[0.286107] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph_s.c\n'}
+[0.286129] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py\n'}
+[0.286151] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.286173] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.300022] (-) TimerEvent: {}
+[0.302062] (slam_toolbox) StdoutLine: {'line': b"Listing '/home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox'...\n"}
+[0.302153] (slam_toolbox) StdoutLine: {'line': b"Listing '/home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv'...\n"}
+[0.304588] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.304716] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.304827] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.304947] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so\n'}
+[0.305024] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl\n'}
+[0.305058] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl\n'}
+[0.305100] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl\n'}
+[0.305128] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl\n'}
+[0.305155] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl\n'}
+[0.305190] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl\n'}
+[0.305241] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl\n'}
+[0.305274] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl\n'}
+[0.305300] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl\n'}
+[0.305327] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl\n'}
+[0.305354] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/Pause.srv\n'}
+[0.305385] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/Pause_Request.msg\n'}
+[0.305436] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/Pause_Response.msg\n'}
+[0.305462] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.srv\n'}
+[0.305487] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue_Request.msg\n'}
+[0.305512] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue_Response.msg\n'}
+[0.305555] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.srv\n'}
+[0.305581] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive_Request.msg\n'}
+[0.305606] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive_Response.msg\n'}
+[0.305630] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/Clear.srv\n'}
+[0.305655] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/Clear_Request.msg\n'}
+[0.305681] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/Clear_Response.msg\n'}
+[0.305714] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.srv\n'}
+[0.305739] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/SaveMap_Request.msg\n'}
+[0.305764] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/SaveMap_Response.msg\n'}
+[0.305789] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.srv\n'}
+[0.305814] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure_Request.msg\n'}
+[0.305839] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure_Response.msg\n'}
+[0.305863] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.srv\n'}
+[0.305887] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps_Request.msg\n'}
+[0.305911] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps_Response.msg\n'}
+[0.305937] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.srv\n'}
+[0.305982] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap_Request.msg\n'}
+[0.306005] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap_Response.msg\n'}
+[0.306029] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.srv\n'}
+[0.306053] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph_Request.msg\n'}
+[0.306078] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph_Response.msg\n'}
+[0.306102] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.srv\n'}
+[0.306126] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph_Request.msg\n'}
+[0.306150] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph_Response.msg\n'}
+[0.306174] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/rviz_plugins.xml\n'}
+[0.306197] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/solver_plugins.xml\n'}
+[0.306221] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node\n'}
+[0.306257] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node\n'}
+[0.306280] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node\n'}
+[0.306302] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node\n'}
+[0.306325] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic\n'}
+[0.306383] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libtoolbox_common.so\n'}
+[0.306514] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[0.306636] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libceres_solver_plugin.so\n'}
+[0.306751] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libasync_slam_toolbox.so\n'}
+[0.306871] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libsync_slam_toolbox.so\n'}
+[0.306995] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/liblocalization_slam_toolbox.so\n'}
+[0.307116] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/liblifelong_slam_toolbox.so\n'}
+[0.307236] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so\n'}
+[0.307365] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libkartoSlamToolbox.so\n'}
+[0.307505] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[0.307647] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include\n'}
+[0.307757] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox\n'}
+[0.307863] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp\n'}
+[0.307956] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp\n'}
+[0.308039] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp\n'}
+[0.308115] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/serialization.hpp\n'}
+[0.308172] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp\n'}
+[0.308250] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp\n'}
+[0.308324] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/map_saver.hpp\n'}
+[0.308406] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp\n'}
+[0.308491] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp\n'}
+[0.308564] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp\n'}
+[0.308638] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp\n'}
+[0.308723] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp\n'}
+[0.308793] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp\n'}
+[0.308867] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp\n'}
+[0.308950] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/experimental\n'}
+[0.309034] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp\n'}
+[0.309102] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp\n'}
+[0.309195] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp\n'}
+[0.309265] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/launch\n'}
+[0.309322] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py\n'}
+[0.309383] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py\n'}
+[0.309488] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py\n'}
+[0.309520] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py\n'}
+[0.309551] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py\n'}
+[0.309577] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/config\n'}
+[0.309602] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz\n'}
+[0.309626] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml\n'}
+[0.309649] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml\n'}
+[0.309674] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml\n'}
+[0.309698] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml\n'}
+[0.309721] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml\n'}
+[0.309744] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/solver_plugins.xml\n'}
+[0.309767] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/rviz_plugins.xml\n'}
+[0.309790] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox\n'}
+[0.309814] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox\n'}
+[0.309840] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh\n'}
+[0.309863] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv\n'}
+[0.309886] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/environment/path.sh\n'}
+[0.309910] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/environment/path.dsv\n'}
+[0.309932] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/local_setup.bash\n'}
+[0.309955] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/local_setup.sh\n'}
+[0.309978] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/local_setup.zsh\n'}
+[0.310000] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/local_setup.dsv\n'}
+[0.310022] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/package.dsv\n'}
+[0.310047] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox\n'}
+[0.310070] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox\n'}
+[0.310094] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox\n'}
+[0.310116] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport.cmake\n'}
+[0.310138] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport-release.cmake\n'}
+[0.310161] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.310183] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[0.310204] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cppExport.cmake\n'}
+[0.310226] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.310274] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[0.310300] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.310375] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[0.310407] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake\n'}
+[0.310432] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake\n'}
+[0.310470] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.310494] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[0.310519] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake\n'}
+[0.310542] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake\n'}
+[0.310684] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport.cmake\n'}
+[0.310823] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport-release.cmake\n'}
+[0.310933] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake\n'}
+[0.311026] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake\n'}
+[0.311057] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/ament_index/resource_index/rclcpp_components/slam_toolbox\n'}
+[0.311158] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake\n'}
+[0.311337] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.311365] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.311502] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.311528] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.311569] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.311594] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.311619] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake\n'}
+[0.311644] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake\n'}
+[0.311668] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/share/slam_toolbox/package.xml\n'}
+[0.311693] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include/\n'}
+[0.311718] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include//karto_sdk\n'}
+[0.311742] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include//karto_sdk/Mapper.h\n'}
+[0.311767] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h\n'}
+[0.311791] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include//karto_sdk/nanoflann.hpp\n'}
+[0.311815] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include//karto_sdk/Macros.h\n'}
+[0.311838] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include//karto_sdk/Math.h\n'}
+[0.311861] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include//karto_sdk/Karto.h\n'}
+[0.311885] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/jy/armordetect/install/slam_toolbox/include//karto_sdk/Types.h\n'}
+[0.311908] (slam_toolbox) CommandEnded: {'returncode': 0}
+[0.327821] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 0}
+[0.328181] (-) EventReactorShutdown: {}

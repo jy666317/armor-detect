@@ -1,0 +1,1 @@
+/home/jy/armordetect/build/armor_interfaces/rosidl_typesupport_fastrtps_c/armor_interfaces/msg/detail/armor_detection__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,6 @@
+{
+  "package_name": "armor_interfaces",
+  "non_idl_tuples": [
+    "/home/jy/armordetect/src/armor_interfaces:msg/ArmorDetection.msg"
+  ]
+}

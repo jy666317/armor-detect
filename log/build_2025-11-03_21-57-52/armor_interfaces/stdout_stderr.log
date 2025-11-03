@@ -1,0 +1,146 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jy/armordetect/build/armor_interfaces
+[35m[1mConsolidate compiler generated dependencies of target armor_interfaces__rosidl_generator_c[0m
+[  3%] Built target armor_interfaces__cpp
+[ 12%] Built target armor_interfaces__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target armor_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target armor_interfaces__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target armor_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 12%] Built target ament_cmake_python_symlink_armor_interfaces
+[35m[1mConsolidate compiler generated dependencies of target armor_interfaces__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target armor_interfaces__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target armor_interfaces__rosidl_typesupport_c[0m
+[ 22%] Built target armor_interfaces__rosidl_typesupport_cpp
+[ 32%] Built target armor_interfaces__rosidl_typesupport_c
+[ 41%] Built target armor_interfaces__rosidl_typesupport_introspection_cpp
+[ 51%] Built target armor_interfaces__rosidl_typesupport_introspection_c
+[ 64%] Built target armor_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target armor_interfaces__rosidl_typesupport_fastrtps_c
+[ 70%] Built target armor_interfaces
+[ 74%] Built target armor_interfaces__py
+[35m[1mConsolidate compiler generated dependencies of target armor_interfaces__rosidl_generator_py[0m
+[ 80%] Built target armor_interfaces__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target armor_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target armor_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target armor_interfaces__rosidl_typesupport_c__pyext[0m
+[ 87%] Built target armor_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Built target armor_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target armor_interfaces__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing armor_interfaces.egg-info/PKG-INFO
+writing dependency_links to armor_interfaces.egg-info/dependency_links.txt
+writing top-level names to armor_interfaces.egg-info/top_level.txt
+reading manifest file 'armor_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'armor_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_armor_interfaces_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/ament_index/resource_index/rosidl_interfaces/armor_interfaces
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/armor_detection.h
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/detail/armor_detection__functions.h
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/detail/armor_detection__struct.h
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/detail/armor_detection__type_support.h
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/environment/library_path.sh
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/environment/library_path.dsv
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/detail/armor_detection__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/detail/armor_detection__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/armor_detection.hpp
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/detail/armor_detection__builder.hpp
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/detail/armor_detection__struct.hpp
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/detail/armor_detection__traits.hpp
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/detail/armor_detection__type_support.hpp
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/detail/armor_detection__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/include/armor_interfaces/armor_interfaces/msg/detail/armor_detection__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/environment/pythonpath.sh
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/__init__.py
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/_armor_interfaces_s.ep.rosidl_typesupport_c.c
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/_armor_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/_armor_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/armor_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/armor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/armor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/libarmor_interfaces__rosidl_generator_py.so
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/msg/__init__.py
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/msg/_armor_detection.py
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/msg/_armor_detection_s.c
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/armor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/armor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/armor_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/msg/ArmorDetection.idl
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/msg/ArmorDetection.msg
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/ament_index/resource_index/package_run_dependencies/armor_interfaces
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/ament_index/resource_index/parent_prefix_path/armor_interfaces
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/environment/path.sh
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/environment/path.dsv
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/local_setup.bash
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/local_setup.sh
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/local_setup.zsh
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/local_setup.dsv
+-- Symlinking: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/package.dsv
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/ament_index/resource_index/packages/armor_interfaces
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/armor_interfacesConfig.cmake
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/armor_interfacesConfig-version.cmake
+-- Up-to-date symlink: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/package.xml
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/lib/libarmor_interfaces__rosidl_generator_c.so
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/lib/libarmor_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/lib/libarmor_interfaces__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/lib/libarmor_interfaces__rosidl_typesupport_c.so
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/lib/libarmor_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/lib/libarmor_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/lib/libarmor_interfaces__rosidl_typesupport_cpp.so
+Listing '/home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces'...
+Compiling '/home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/__init__.py'...
+Listing '/home/jy/armordetect/install/armor_interfaces/local/lib/python3.10/dist-packages/armor_interfaces/msg'...
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/lib/libarmor_interfaces__rosidl_generator_py.so
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/export_armor_interfaces__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/export_armor_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/export_armor_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/export_armor_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/armor_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/armor_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/armor_interfaces__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/armor_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/export_armor_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/export_armor_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/export_armor_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/armor_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/armor_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/armor_interfaces__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/armor_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/export_armor_interfaces__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/jy/armordetect/install/armor_interfaces/share/armor_interfaces/cmake/export_armor_interfaces__rosidl_generator_pyExport-noconfig.cmake

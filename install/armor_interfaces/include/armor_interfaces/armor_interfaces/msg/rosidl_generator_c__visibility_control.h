@@ -1,0 +1,1 @@
+/home/jy/armordetect/build/armor_interfaces/rosidl_generator_c/armor_interfaces/msg/rosidl_generator_c__visibility_control.h

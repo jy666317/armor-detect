@@ -1,0 +1,55 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/jy/armordetect/build/slam_toolbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c86d1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c86d1.dir/build.make CMakeFiles/cmTC_c86d1.dir/build
+gmake[1]: 进入目录“/home/jy/armordetect/build/slam_toolbox/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c86d1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_c86d1.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c86d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c86d1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_c86d1.dir/CheckFunctionExists.c.o -o cmTC_c86d1 
+/usr/bin/ld: CMakeFiles/cmTC_c86d1.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_c86d1.dir/build.make:99：cmTC_c86d1] 错误 1
+gmake[1]: 离开目录“/home/jy/armordetect/build/slam_toolbox/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:127：cmTC_c86d1/fast] 错误 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/jy/armordetect/build/slam_toolbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9aa22/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9aa22.dir/build.make CMakeFiles/cmTC_9aa22.dir/build
+gmake[1]: 进入目录“/home/jy/armordetect/build/slam_toolbox/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9aa22.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_9aa22.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9aa22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aa22.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_9aa22.dir/CheckFunctionExists.c.o -o cmTC_9aa22  /usr/lib/x86_64-linux-gnu/libblas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_9aa22.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9aa22.dir/build.make:100：cmTC_9aa22] 错误 1
+gmake[1]: 离开目录“/home/jy/armordetect/build/slam_toolbox/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:127：cmTC_9aa22/fast] 错误 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/jy/armordetect/build/slam_toolbox/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a853/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a853.dir/build.make CMakeFiles/cmTC_6a853.dir/build
+gmake[1]: 进入目录“/home/jy/armordetect/build/slam_toolbox/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6a853.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_6a853.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6a853
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a853.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ CMakeFiles/cmTC_6a853.dir/CheckFunctionExists.c.o -o cmTC_6a853  /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libblas.so -fortranlibs 
+cc: error: unrecognized command-line option ‘-fortranlibs’
+gmake[1]: *** [CMakeFiles/cmTC_6a853.dir/build.make:101：cmTC_6a853] 错误 1
+gmake[1]: 离开目录“/home/jy/armordetect/build/slam_toolbox/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:127：cmTC_6a853/fast] 错误 2
+
+
+

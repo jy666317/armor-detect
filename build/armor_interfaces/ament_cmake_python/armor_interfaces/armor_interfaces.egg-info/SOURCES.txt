@@ -1,0 +1,8 @@
+setup.py
+armor_interfaces/__init__.py
+armor_interfaces.egg-info/PKG-INFO
+armor_interfaces.egg-info/SOURCES.txt
+armor_interfaces.egg-info/dependency_links.txt
+armor_interfaces.egg-info/top_level.txt
+armor_interfaces/msg/__init__.py
+armor_interfaces/msg/_armor_detection.py

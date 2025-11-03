@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/jy/armordetect/build/armor_detect': CMAKE_PREFIX_PATH=/home/jy/ws00_helloworld/install/pkg01_helloworld_cpp:/home/jy/ws00_helloworld/install/cpp03_action:/home/jy/ws00_helloworld/install/cpp02_service:/home/jy/ws00_helloworld/install/cpp01_topic:/home/jy/ws00_helloworld/install/base_interfaces_demo:/home/jy/ws00_helloworld/install/py02_service:/home/jy/ws00_helloworld/install/py01_topic:/opt/ros/humble:/home/jy/catkin_ws/devel:/home/jy/catkin_ws/devel_isolated/wpr_simulation:/home/jy/catkin_ws/devel_isolated/ssr_pkg /usr/bin/cmake --build /home/jy/armordetect/build/armor_detect -- -j16 -l16
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[0.082s] [ 30%] Built target subscriber_node
+[0.094s] [ 40%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/armor_detector.cpp.o[0m
+[1.206s] [ 50%] [32m[1mLinking CXX executable publisher_node[0m
+[1.566s] [100%] Built target publisher_node
+[1.575s] Invoked command in '/home/jy/armordetect/build/armor_detect' returned '0': CMAKE_PREFIX_PATH=/home/jy/ws00_helloworld/install/pkg01_helloworld_cpp:/home/jy/ws00_helloworld/install/cpp03_action:/home/jy/ws00_helloworld/install/cpp02_service:/home/jy/ws00_helloworld/install/cpp01_topic:/home/jy/ws00_helloworld/install/base_interfaces_demo:/home/jy/ws00_helloworld/install/py02_service:/home/jy/ws00_helloworld/install/py01_topic:/opt/ros/humble:/home/jy/catkin_ws/devel:/home/jy/catkin_ws/devel_isolated/wpr_simulation:/home/jy/catkin_ws/devel_isolated/ssr_pkg /usr/bin/cmake --build /home/jy/armordetect/build/armor_detect -- -j16 -l16
+[1.576s] Invoking command in '/home/jy/armordetect/build/armor_detect': CMAKE_PREFIX_PATH=/home/jy/ws00_helloworld/install/pkg01_helloworld_cpp:/home/jy/ws00_helloworld/install/cpp03_action:/home/jy/ws00_helloworld/install/cpp02_service:/home/jy/ws00_helloworld/install/cpp01_topic:/home/jy/ws00_helloworld/install/base_interfaces_demo:/home/jy/ws00_helloworld/install/py02_service:/home/jy/ws00_helloworld/install/py01_topic:/opt/ros/humble:/home/jy/catkin_ws/devel:/home/jy/catkin_ws/devel_isolated/wpr_simulation:/home/jy/catkin_ws/devel_isolated/ssr_pkg /usr/bin/cmake --install /home/jy/armordetect/build/armor_detect
+[1.581s] -- Install configuration: ""
+[1.581s] -- Installing: /home/jy/armordetect/install/armor_detect/lib/armor_detect/publisher_node
+[1.582s] -- Set runtime path of "/home/jy/armordetect/install/armor_detect/lib/armor_detect/publisher_node" to ""
+[1.582s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/lib/armor_detect/subscriber_node
+[1.582s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/ament_index/resource_index/package_run_dependencies/armor_detect
+[1.582s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/ament_index/resource_index/parent_prefix_path/armor_detect
+[1.582s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/armor_detect/environment/ament_prefix_path.sh
+[1.582s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/armor_detect/environment/ament_prefix_path.dsv
+[1.582s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/armor_detect/environment/path.sh
+[1.583s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/armor_detect/environment/path.dsv
+[1.583s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/armor_detect/local_setup.bash
+[1.583s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/armor_detect/local_setup.sh
+[1.583s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/armor_detect/local_setup.zsh
+[1.583s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/armor_detect/local_setup.dsv
+[1.583s] -- Installing: /home/jy/armordetect/install/armor_detect/share/armor_detect/package.dsv
+[1.583s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/ament_index/resource_index/packages/armor_detect
+[1.583s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/armor_detect/cmake/armor_detectConfig.cmake
+[1.583s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/armor_detect/cmake/armor_detectConfig-version.cmake
+[1.583s] -- Up-to-date: /home/jy/armordetect/install/armor_detect/share/armor_detect/package.xml
+[1.584s] Invoked command in '/home/jy/armordetect/build/armor_detect' returned '0': CMAKE_PREFIX_PATH=/home/jy/ws00_helloworld/install/pkg01_helloworld_cpp:/home/jy/ws00_helloworld/install/cpp03_action:/home/jy/ws00_helloworld/install/cpp02_service:/home/jy/ws00_helloworld/install/cpp01_topic:/home/jy/ws00_helloworld/install/base_interfaces_demo:/home/jy/ws00_helloworld/install/py02_service:/home/jy/ws00_helloworld/install/py01_topic:/opt/ros/humble:/home/jy/catkin_ws/devel:/home/jy/catkin_ws/devel_isolated/wpr_simulation:/home/jy/catkin_ws/devel_isolated/ssr_pkg /usr/bin/cmake --install /home/jy/armordetect/build/armor_detect

@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/humble/include/**",
+                "/home/jy/armordetect/src/armor_interfaces/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/src/armor_detect/include",
+                "/opt/ros/humble/include/rclcpp",
+                "/opt/ros/humble/include/rcl",
+                "${workspaceFolder}/install/base_interfaces_demo/include/**",
+                "${workspaceFolder}/install/armor_interfaces/include/armor_interfaces",
+                "/opt/ros/humble/include/std_msgs",
+                "/opt/ros/humble/include/sensor_msgs",
+                "/opt/ros/humble/include/geometry_msgs",
+                "/usr/include/opencv4",
+                "/usr/include/opencv4/opencv2/videostab"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

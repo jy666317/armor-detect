@@ -1,0 +1,17 @@
+/home/jy/armordetect/install/armor_detect/lib/armor_detect/publisher_node
+/home/jy/armordetect/install/armor_detect/lib/armor_detect/subscriber_node
+/home/jy/armordetect/install/armor_detect/share/ament_index/resource_index/package_run_dependencies/armor_detect
+/home/jy/armordetect/install/armor_detect/share/ament_index/resource_index/parent_prefix_path/armor_detect
+/home/jy/armordetect/install/armor_detect/share/armor_detect/environment/ament_prefix_path.sh
+/home/jy/armordetect/install/armor_detect/share/armor_detect/environment/ament_prefix_path.dsv
+/home/jy/armordetect/install/armor_detect/share/armor_detect/environment/path.sh
+/home/jy/armordetect/install/armor_detect/share/armor_detect/environment/path.dsv
+/home/jy/armordetect/install/armor_detect/share/armor_detect/local_setup.bash
+/home/jy/armordetect/install/armor_detect/share/armor_detect/local_setup.sh
+/home/jy/armordetect/install/armor_detect/share/armor_detect/local_setup.zsh
+/home/jy/armordetect/install/armor_detect/share/armor_detect/local_setup.dsv
+/home/jy/armordetect/install/armor_detect/share/armor_detect/package.dsv
+/home/jy/armordetect/install/armor_detect/share/ament_index/resource_index/packages/armor_detect
+/home/jy/armordetect/install/armor_detect/share/armor_detect/cmake/armor_detectConfig.cmake
+/home/jy/armordetect/install/armor_detect/share/armor_detect/cmake/armor_detectConfig-version.cmake
+/home/jy/armordetect/install/armor_detect/share/armor_detect/package.xml

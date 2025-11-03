@@ -1,0 +1,1 @@
+/home/jy/armordetect/build/armor_interfaces/rosidl_generator_cpp/armor_interfaces/msg/detail/armor_detection__struct.hpp
